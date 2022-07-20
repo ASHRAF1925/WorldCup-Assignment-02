@@ -1,0 +1,193 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common-styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 8.75%;
+}
+
+
+
+header {
+
+    margin-top: 50px;
+    height: 500px;
+    border-radius: 30px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+
+}
+
+.header-left {
+    width: 40%;
+}
+
+
+
+header h1 {
+    font-weight: 700;
+    font-size: 3em;
+    color: #FFFFFF;
+    padding-left: 50px;
+    padding-right: 29px;
+}
+
+header p {
+    color: white;
+    font-size: 0.9em;
+    padding-left: 50px;
+    padding-right: 29px;
+
+}
+
+header h3 {
+    display: inline;
+    margin-right: 10px;
+    font-weight: 200;
+
+}
+
+header image {
+    width: 150%;
+
+}
+
+.Live-button {
+    margin-left: 50px;
+    padding-right: 29px;
+    background-color: red;
+    height: auto;
+    width: 30%;
+    padding: 0px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+
+}
+
+nav {
+    height: 312px;
+    width: 312px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0px 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 24px;
+
+}
+
+.nav-items {
+    background-color: white;
+    height: 64px;
+    width: 252px;
+    text-decoration: none;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 10%;
+
+
+
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 12px;
+    grid-column-gap: 12px;
+}
+
+.blogs article {
+    width: 290px;
+    height: 362px;
+    /* background-color: blue; */
+    border: 1px solid rgb(167, 150, 150);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.blogs article img {
+    width: 100%;
+    height: 50%;
+
+}
+
+.blogs article h3 {
+    height: 40px;
+    width: 40%;
+    text-align: center;
+    padding-top: 2%;
+    border: 2px solid black;
+    color: black;
+    margin-left: 20px;
+    border-radius: 10px;
+    /* background-color: chocolate; */
+
+}
+
+.blogs article p {
+    margin-left: 20px;
+}
+
+.blogs article i {
+    margin: 0px 25px;
+
+
+}
+
+footer {
+    width: 100%;
+    height: 444px;
+    background-color: black;
+}
+
+footer h1 {
+    padding-top: 130px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+hr {
+
+    width: 90%;
+
+}
+
+.footer-nav {
+    margin: 10px 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: rgb(224, 213, 213);
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: azure;
+    font-size: 3em;
+}
