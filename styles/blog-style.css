@@ -14,6 +14,30 @@ body {
     padding: 0px 8.75%;
 }
 
+@keyframes bouance {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 310px
+    }
+
+}
+
+.bouaning-ball {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    animation: bouance 3s ease-in-out .2s infinite alternate;
+    animation-play-state: running;
+    position: relative;
+}
+
+.bouaning-ball img {
+    width: 100%;
+}
+
 
 
 header {
@@ -225,6 +249,17 @@ hr {
         width: 100%;
     }
 
+    @keyframes bouance {
+        from {
+            left: -150px;
+        }
+
+        to {
+            left: 150px
+        }
+
+    }
+
     .margin-fix {
 
         padding: 0px 30px;
@@ -379,11 +414,8 @@ hr {
         display: flex;
         text-align: center;
         margin-bottom: 5px;
-
         justify-content: center;
         align-items: center;
-
-
     }
 
     header h1 {
