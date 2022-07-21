@@ -272,7 +272,7 @@ hr {
 
     header {
         margin-top: 10px;
-        height: 400vw;
+        height: 500vw;
         border-radius: 30px;
         width: 100%;
         background-color: black;
@@ -364,7 +364,7 @@ hr {
 
     .blogs article {
         width: 50%px;
-        height: 60vw;
+        height: 80vw;
 
         /* background-color: blue; */
         border: 1px solid rgb(167, 150, 150);
